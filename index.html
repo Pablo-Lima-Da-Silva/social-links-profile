@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,31 +12,57 @@
       href="./assets/images/favicon-32x32.png"
     />
 
-    <title>Frontend Mentor | Social links profile</title>
-
     <!--TailWindCSS-->
     <link rel="stylesheet" href="output.css" />
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Frontend Mentor | Social links profile</title>
   </head>
-  <body>
-    Jessica Randall London, United Kingdom "Front-end developer and avid
-    reader." GitHub Frontend Mentor LinkedIn Twitter Instagram
+  <body class="bg-off-black w-full">
+    <div
+      class="box-decoration-slice bg-dark-gray grid grid-cols-1 justify-center justify-items-center w-96 rounded-xl alinhamento my-14"
+    >
+      <img
+        src="assets/images/avatar-pablo.png"
+        alt="avatar-jessica"
+        width="150"
+        class="rounded-full py-5 px-5 alinhamento"
+      />
+      <h2 class="text-white pb-3 text-4xl inter-400 text-center">
+        Pablo Silva
+      </h2>
+      <h4 class="cor-pais pb-5 inter-600 text-center">
+        São Paulo, Brasil
+      </h4>
+      <p class="text-white pb-3 text-center">
+        "Front-end developer and avid reader."
+      </p>
+      <div class="text-white py-3 px-5 grid grid-cols-1 inter-400 w-full">
+        <button type="button" class="bg-gray-pablo py-3 px-3 mb-3 rounded-md">
+          <a href="https://github.com/Pablo-Lima-Da-Silva">GitHub</a>
+        </button>
+        <button type="button" class="bg-gray-pablo py-3 px-3 mb-3 rounded-md">
+          <a href="https://www.frontendmentor.io/profile/Pablo-Lima-Da-Silva"
+            >Front-end Mentor</a
+          >
+        </button>
+        <button type="button" class="bg-gray-pablo py-3 px-3 mb-3 rounded-md">
+          <a href="#">LinkedIn</a>
+        </button>
+        <button type="button" class="bg-gray-pablo py-3 px-3 mb-3 rounded-md">
+          <a href="#">Twitter</a>
+        </button>
+        <button type="button" class="bg-gray-pablo py-3 px-3 mb-3 rounded-md">
+          <a href="https://www.instagram.com/asap.pb/">Instagram</a>
+        </button>
+      </div>
+    </div>
 
-    <div class="attribution">
+    <div class="text-white text-center">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by
+      <a href="https://github.com/Pablo-Lima-Da-Silva">Pablo Silva</a>.
     </div>
   </body>
 </html>

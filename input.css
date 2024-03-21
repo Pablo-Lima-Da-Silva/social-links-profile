@@ -1,3 +1,42 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.cor-pais {
+  color: hsl(75, 94%, 57%);
+}
+
+.bg-dark-gray {
+  background: hsl(0, 0%, 12%);
+}
+
+.bg-gray-pablo {
+  background: hsl(0, 0%, 20%);
+}
+
+.bg-off-black {
+  background: hsl(0, 0%, 8%);
+}
+
+.inter-400 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+.inter-600 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+.inter-700 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+}
+
+.alinhamento {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
